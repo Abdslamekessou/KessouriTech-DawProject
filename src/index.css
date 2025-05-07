@@ -1,0 +1,166 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Brand Colors */
+.kessouri-blue {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.tech-white {
+  color: white;
+  font-weight: bold;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.brand-highlight {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+/* Layout Components */
+.welcome-banner {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.welcome-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-banner .lead {
+  color: #6c757d;
+  font-size: 1.25rem;
+}
+
+.cart-container {
+  position: sticky;
+  top: 20px;
+}
+
+/* Product Cards */
+.product-card {
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+  height: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  border-color: #0d6efd;
+}
+
+.product-image-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: #f8f9fa;
+}
+
+.product-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.stock-status.text-warning {
+  font-weight: bold;
+}
+
+/* Cart Styles */
+.cart-link {
+  cursor: pointer;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.cart-link:hover {
+  color: rgba(255,255,255,0.75) !important;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.cart-item {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cart-item:hover {
+  background-color: #f8f9fa;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-quantity .btn {
+  padding: 0.25rem 0.5rem;
+}
+
+.cart-item-price {
+  font-weight: bold;
+  min-width: 80px;
+  text-align: right;
+}
+
+.cart-summary {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .welcome-banner {
+    padding: 1rem;
+  }
+  
+  .welcome-banner h1 {
+    font-size: 1.8rem;
+  }
+  
+  .welcome-banner .lead {
+    font-size: 1rem;
+  }
+
+  .brand-name {
+    font-size: 1.2rem;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-item-quantity {
+    margin: 0.5rem 0;
+  }
+
+  .cart-item-price {
+    text-align: left;
+    width: 100%;
+  }
+}
+
