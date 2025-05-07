@@ -16,7 +16,8 @@ Modern tech store with cart functionality built with React + Vite.
 ## Quick Start
 1. Clone repo
 ```bash
-git clone https://github.com/Abdslamekessou/kessouritech.git
+git clone https://github.com/Abdslamekessou/KessouriTech-DawProject
+.git
 cd kessouritech
 
 2##Install & run
