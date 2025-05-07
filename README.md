@@ -14,17 +14,14 @@ Modern tech store with cart functionality built with React + Vite.
 - React Icons
 
 ## Quick Start
-1. Clone repo
-```bash
-git clone https://github.com/Abdslamekessou/KessouriTech-DawProject
-.git
-cd kessouritech
+1-you can install the zip file 
 
-2##Install & run
+2- install the react-icons by writing in the terminal
+npm install react-icons
 
-npm install
-npm run dev
+3- install the Font Awesome icons by writing in the terminal
+npm install @fortawesome/fontawesome-free
 
-3##Build
-npm run build
+4-do 
+npm run dev 
 
